@@ -3,18 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <title>TinDog</title>
+
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap"
       rel="stylesheet"
     />
 
+    <!-- Bootstrap Scripts -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
       integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css" />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -30,6 +32,15 @@
       integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/5d4e38ec66.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
@@ -69,8 +80,12 @@
         <div class="row">
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <button type="button" class="btn btn-dark btn-lg">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              <i class="fab fa-google-play"></i> Download
+            </button>
           </div>
           <div class="col-lg-6">
             <img src="images/iphone6.png" alt="iphone-mockup" />
